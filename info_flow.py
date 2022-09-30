@@ -69,8 +69,8 @@ class Information_Flow():
 
 class FlowGragh():
     def __init__(self):
-        self.url = 'bolt://localhost:7687'
-        self.pw = 'Ljw196919712012'
+        self.url = 'bolt://localhost:xxxx'
+        self.pw = 'xxxxxxxxxx'
         self.graph_engine = py2neo.Graph(self.url, username='usrname', password='pw')
         self.graph = self.graph_engine.begin()
 
